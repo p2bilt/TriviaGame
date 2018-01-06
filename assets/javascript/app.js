@@ -8,7 +8,7 @@ var quiz = [{
             "Prongs"
         ],
         "correct": "Snuffles",
-        "explanation": "Harry, Ron and Hermione create this code name to refer to Sirius Black while he is in his Animagus form, that of a black dog.",
+        "explanation": "Harry, Ron and Hermione create the code name \"Snuffles\" to refer to Sirius Black while he is in his Animagus form, that of a black dog.",
     },
     {
         "question": "What magical object causes people to turn orange or sprout tentacle-like warts?",
@@ -20,7 +20,7 @@ var quiz = [{
             "U-No-Poo"
         ],
         "correct": "Metamorph-Medals",
-        "explanation": "First mentioned by Arthur Weasley in the HALF-BLOOD PRINCE, these magical scam objects, far from helping the wearer metamorph, often backfire dramatically.",
+        "explanation": "First mentioned by Arthur Weasley in the HALF-BLOOD PRINCE, \"Metamorph-Medals\" are magical scam objects, and far from helping the wearer metamorph, often backfire dramatically.",
     },
     {
         "question": "What is the only antidote to Basilisk venom?",
@@ -68,7 +68,7 @@ var quiz = [{
             "30th June"
         ],
         "correct": "31st July",
-        "explanation": "Little known fact: Harry Potter was in fact not born, but hatched from an egg! His first word was reportedly \"CRIKEY\""
+        "explanation": "Little known fact: Harry Potter was in fact not born on July 31st, but hatched from an egg! His first word was reportedly \"CRIKEY\""
     },
     {
         "question": "Which item is enchanted to help a student cheat on an exam?",
@@ -80,7 +80,7 @@ var quiz = [{
             "Detachable Cribbing Cuff"
         ],
         "correct": "Detachable Cribbing Cuff",
-        "explanation": "First mentioned in ORDER OF THE PHOENIX, these items were banned from the examination hall while the fifth years took their Ordinary Wizarding Levels. All results of this quiz are considered null and void if the taker is in possession of such objects.",
+        "explanation": "First mentioned in ORDER OF THE PHOENIX, \"Detachable Cribbing Cuffs\" were banned from the examination hall while the fifth years took their Ordinary Wizarding Levels. All results of this quiz are considered null and void if the taker is in possession of such objects.",
     },
     {
         "question": "When Harry Potter reaches the end of the Triwizard Tournament, who sadly dies?",
@@ -181,7 +181,7 @@ function init() {
     // initialize variables
     currentquestion = 0;
     score = 0;
-    //add first question tracker and questions
+    //add question tracker and questions. How much can I jquery? Alot jquery.
     //add pager (question tracker)
     $("#test_status").html('Question ' + Number(currentquestion + 1) + ' of ' + quiz.length);
     //add first question
