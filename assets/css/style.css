@@ -1,3 +1,62 @@
+
+
+body {
+    background-image: url("../images/dceff6eb8639f46f68f25c36125bdbeb.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+strong {
+    font-weight: 700;
+}
+
+li:hover {
+    background-color: rgba(209, 132, 55, 0.5);
+}
+
+#frame {
+    width: auto;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+#choice-block {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#explanation {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.choice-box {
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    padding: 10px 0;
+    background-color: rgba(254, 251, 230, 0.6);
+    border: 1px solid #666;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
 .jumbotron {
     margin-bottom: 0px;
     background-image: url(../images/harry-potter-class.jpg);
@@ -6,69 +65,24 @@
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
-    height: 300px; 
+    height: 300px;
 }
 
 .potterfont {
-	font-family: 'Fontdiner Swanky', cursive;
-	font-size: 3.5rem;
-	letter-spacing: 4px;
-	margin-bottom: 10px;
-
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
 }
 
-.timerstrip{
-	  	background-color:#2EA620;
-    height: 30px; 
-
+.timerstrip {
+    background-color: #2EA620;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 3px;
 }
 
-  ol, ul {
-      list-style:none;
-  }
 
-  strong {
-      font-weight:700;
-  }
-
-  li:hover {
-  	background-color:#2EA620;
-  }
-
-  #frame {
-      max-width:620px;
-      width:auto;
-      border:1px solid #ccc;
-      background:#fff;
-      padding:10px;
-      margin:3px;
-  }
-
-  #choice-block {
-      display:block;
-      list-style:none;
-      margin:0;
-      padding:0;
-  }
-  #submitbutton {
-      background:#5a6b8c;
-  }
-  #submitbutton:hover {
-      background:#7b8da6;
-  }
-  #explanation {
-      margin:0 auto;
-      padding:20px;
-      width:75%;
-  }
-  .choice-box {
-      display:block;
-      text-align:center;
-      margin:8px auto;
-      padding:10px 0;
-      border:1px solid #666;
-      cursor:pointer;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-  }
+.greentext {
+    color: green;
+}

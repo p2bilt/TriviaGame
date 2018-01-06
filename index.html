@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-02r837f/s1bBitm4EH65RIncWtMiZuhCgUp9H4txuXwrPXSwn+vQ5YF9KqryUe7z" crossorigin="anonymous">
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-</head>
-<body>
-	<span id="timer">30 secs</span>
-	<div id="questionBit">?</div>
-	<div id="answer1">?</div>
-	<div id="answer2">?</div>
-	<div id="answer3">?</div>
-	<div id="answer4">?</div>
-	
-</body>
-<script type="text/javascript" src="assets/javascript/app.js"></script>
+    <meta charset="UTF-8">
+    <title>Harry Potter Trivia</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-02r837f/s1bBitm4EH65RIncWtMiZuhCgUp9H4txuXwrPXSwn+vQ5YF9KqryUe7z" crossorigin="anonymous">
+    <!-- local stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+
+    <body>
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1 class="display-3 potterfont">Harry Potter Trivia</h1>
+                <p class="lead" id="test_status"></p>
+            </div>
+        </div>
+        <div class="row timerstrip">
+            <div class="col-md-12">
+                <p class="lighter text-center" <span id="timer">
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"> </div>
+                <div class="col-md-8">
+                    <div id="test"></div>
+                    <div id="frame" role="content"> </div>
+                </div>
+                <div class="col-md-2">
+                    <p class="explanation" id="explanation"></p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!--         <button type="button" class="close" data-dismiss="modal">&times;</button>
+ -->
+                        <h4 class="modal-title">Time's Up!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Unless you're in possession of a time-turner,
+                            <br>prove your skills on this next bit of trivia - </p>
+                    </div>
+                    <div class="modal-footer">
+                        <!--  <button type="button" class="btn btn-default" data-dismiss="modal">Next Question</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </html>
